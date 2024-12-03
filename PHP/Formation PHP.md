@@ -1,6 +1,12 @@
 # PHP Formation Notes
 
+[Playlist](https://www.youtube.com/playlist?list=PLjwdMgw5TTLVDv-ceONHM_C19dPW1MAMD)
+
 ...
+
+:warning: Prise de note commencée en cours de route :|
+
+___
 
 ## Before
 
