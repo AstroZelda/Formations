@@ -1,0 +1,79 @@
+<html>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="pin">📍</div>
+            <input type="text" placeholder="Marseille, France">
+            <div class="search">🔍</div>
+        </div>
+    </div>
+</body>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECF2F9;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    width: 300px;
+    height: 100%;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 20px #0009;
+}
+
+.container {
+    width: calc(100% - 20px);
+    height: 20px;
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pin, .search {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.pin {
+    border: 1px solid black;
+    border-right: 0;
+    background-color: #aaa;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search {
+    margin-left: -5px;
+    padding-top: 1px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.container input {
+    flex: 1;
+    height: 20px;
+    line-height: 20px;
+    border-width: 1px;
+    border-left: 0;
+}
+
+</style>
+
+</html>
